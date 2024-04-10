@@ -1,0 +1,1 @@
+# Optimizarea-solu-iilor-de-diarizare-n-cadrul-sistemelor-Speech-to-Text-STT-
