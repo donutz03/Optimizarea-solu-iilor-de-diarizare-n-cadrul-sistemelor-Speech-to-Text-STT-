@@ -1,0 +1,4 @@
+
+# IMPORTANT
+# e integrat in speaker_diarization_gpu.py deja, in afara de partea cu min_speakers si max_speakers 
+# si partea de num_speakers

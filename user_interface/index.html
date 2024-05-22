@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="module" src="index.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="center">
+    <div id="waveform"></div>
+
+    <p>
+      <label>
+        <input type="checkbox" checked="${loop}" />
+        Loop regions
+      </label>
+
+      <label style="margin-left: 2em">
+        Zoom: <input type="range" min="10" max="1000" value="10" />
+      </label>
+    </p>
+
+   
+    <input type="text" class="youtube-video-input" placeholder="Search...">
+   
+    <button class="mt-10 diarization-button">Get diarization</button>
+    <div class="mt-10">
+      <label for="browse-and-upload-inputID" class="browse-btn">Browse and upload</label>
+      <input id="browse-and-upload-inputID" class="browse-and-upload-input" style="visibility:hidden;" type="file">
+    </div>
+    <button class="mt-10 play-button">Play</button>
+    <button class="mt-10 pause-button">Pause</button>
+    <!-- <button class="stop-button">Stop</button> -->
+  </div>
+</body>
+
+</html>

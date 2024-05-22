@@ -1,0 +1,16 @@
+'''
+1) trebuie sa mut outputul de rttm din speaker_diarization_gpu si cpu in 
+RTTM_and_LABELS_FOLDER/rttm_outputs_diarization
+
+2) trebuie sa mut outputul de txt (label) din conv_rttm_to_txt_labels.py in 
+RTTM_and_LABELS_FOLDER/txt_labels_for_audacity
+!!!!3) tema (diarizare manuala, fisier in romana, alte modele)
+4) program python DER
+5) aditional: split to mono/frecventa 16000hz
+https://github.com/Picovoice/speaker-diarization-benchmark
+https://github.com/nryant/dscore
+DER de pe github 
+conversie txt in rttm pt input la programul DER
+https://wavesurfer.xyz/examples/?regions.js pt front
+aplicatie interfata in poza (26apr)
+'''

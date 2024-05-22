@@ -1,0 +1,93 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.youtube-video-input {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 20px;
+    width: 300px; 
+    font-size: 16px;
+    outline: none;
+}
+
+
+.youtube-video-input:focus {
+    border-color: #4d90fe;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+#waveform {
+    width: 100%;
+}
+
+.diarization-button {
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 10px 20px;
+    background-color: #4d90fe; 
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+}
+
+/* Play button */
+.play-button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px; /* Add spacing between buttons */
+}
+
+.play-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Pause button */
+.pause-button {
+    padding: 10px 20px;
+    background-color: #008CBA; /* Blue */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pause-button:hover {
+    background-color: #0073e6; /* Darker blue on hover */
+}
+
+
+
+.browse-and-upload-input {
+    width:0;
+
+}
+
+.mt-10{
+    margin-top: 12px;
+    height: 40px;
+
+}
+
+.browse-btn 
+{
+    display:block;
+    padding: 10px 20px;
+    background: rgb(136, 78, 78);
+    color: white;
+    cursor:pointer;
+}
